@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ReportsICON</name>
+   <tag></tag>
+   <elementGuidId>92f4e8d3-1f18-4399-9020-0e31a23e152d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='step-1']/ov-report-manager/div/div/div/div/div/ul/li/div/span/span/span/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>glyphicon glyphicon-folder-close ov-report-manager-icon-folder ng-scope</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;step-1&quot;)/ov-report-manager[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;col-xs-12 ov-report-manager&quot;]/div[@class=&quot;col-md-12 well&quot;]/div[@class=&quot;col-md-5&quot;]/div[@class=&quot;ov-report-box-s&quot;]/div[@class=&quot;ng-isolate-scope&quot;]/ul[@class=&quot;ivh-treeview&quot;]/li[@class=&quot;ivh-treeview-node ng-scope ng-isolate-scope ivh-treeview-node-collapsed&quot;]/div[@class=&quot;ivh-treeview-node-content ng-scope&quot;]/span[@class=&quot;ivh-treeview-toggle&quot;]/span[@class=&quot;ivh-treeview-twistie-wrapper&quot;]/span[@class=&quot;ivh-treeview-twistie&quot;]/span[@class=&quot;ivh-treeview-twistie-collapsed&quot;]/span[@class=&quot;glyphicon glyphicon-folder-close ov-report-manager-icon-folder ng-scope&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>screenshot</name>
+      <type>Main</type>
+      <value>C:/Users/Alex/Katalon Studio/Test/Screenshots/Targets/ReportsICON.png</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='step-1']/ov-report-manager/div/div/div/div/div/ul/li/div/span/span/span/span/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span/span/span/span</value>
+   </webElementXpaths>
+</WebElementEntity>
