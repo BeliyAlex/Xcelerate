@@ -28,5 +28,5 @@ WebUI.verifyElementPresent(findTestObject('XceleratePortal/Audit History/icon_Au
 
 WebUI.verifyElementPresent(findTestObject('XceleratePortal/Audit History/header_AuditHistory'), 0)
 
-WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('XceleratePortal/Audit History/table_AuditHistory'), 0)
 
