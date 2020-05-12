@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>block_ProcessLogs</name>
+   <name>button_OpenCloseEmployee</name>
    <tag></tag>
-   <elementGuidId>c7066ea2-624c-4da3-9747-804569137c27</elementGuidId>
+   <elementGuidId>df1b3aea-f847-4365-9788-f94369e23af8</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='packages']//div[3]//img[1]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='logs']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
