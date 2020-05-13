@@ -22,7 +22,7 @@ WebUI.mouseOver(findTestObject('XceleratePortal/Dashboard/menu_Audit'))
 
 WebUI.click(findTestObject('XceleratePortal/Dashboard/menu_AuditHistoryPage'))
 
-WebUI.waitForPageLoad(3)
+WebUI.waitForPageLoad(GlobalVariable.TimeOut)
 
 WebUI.verifyElementPresent(findTestObject('XceleratePortal/Audit History/icon_AuditHistory'), 0)
 

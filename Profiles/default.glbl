@@ -19,4 +19,9 @@
       <initValue>'10.225.222.77'</initValue>
       <name>Environment</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>3</initValue>
+      <name>TimeOut</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
