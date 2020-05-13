@@ -38,6 +38,7 @@ WebUI.verifyElementNotPresent(findTestObject('XceleratePortal/Processes/text_Err
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/block_Data'))
 
+//Verify that block is expanded
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/list_Data'), 'style', '', 0)
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/block_Maintenance'))
@@ -57,6 +58,7 @@ WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/ProcessLogs
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/ProcessLogsBlock/list_ProcessLogs'), 'style', 
     '', 0)
 
+//Verify columns in Process Logs table
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/ProcessLogsBlock/column_Name'))
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/ProcessLogsBlock/column_Module'))
@@ -69,6 +71,7 @@ WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/ProcessLogs
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/ProcessLogsBlock/column_Status'))
 
+//Verify pagination in Process Logs table
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/ProcessLogsBlock/arrow_FirstPageProcessLogs'))
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/ProcessLogsBlock/arrow_PreviousPageProcessLogs'))
@@ -88,6 +91,7 @@ WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/BusinessErr
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/BusinessErrorsBlock/list_BusinessErrors'), 'style', 
     '', 0)
 
+//Verify columns in Business Errors table
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/BusinessErrorsBlock/column_Date'))
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/BusinessErrorsBlock/column_Module'))
@@ -104,6 +108,7 @@ WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/BusinessErr
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/BusinessErrorsBlock/column_Value'))
 
+//Verify pagination in Business Errors table
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/BusinessErrorsBlock/arrow_FirstPageBusinessErrors'))
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/BusinessErrorsBlock/arrow_PreviousPageBusinessErrors'))
@@ -120,6 +125,7 @@ WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/BusinessErr
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/BusinessErrorsBlock/button_RefreshBusinessErrors'))
 
+//Collapse all the blocks
 WebUI.click(findTestObject('XceleratePortal/Processes/button_OpenCloseData'))
 
 WebUI.click(findTestObject('XceleratePortal/Processes/button_OpenCloseMaintenance'))
@@ -132,6 +138,7 @@ WebUI.click(findTestObject('XceleratePortal/Processes/ProcessLogsBlock/button_Op
 
 WebUI.click(findTestObject('XceleratePortal/Processes/BusinessErrorsBlock/button_OpenCloseBusinessErrors'))
 
+//Verify correct displaying status of Open/Close button on each block
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/button_OpenCloseData'), 'src', ((((('http://' + 
     GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + '/xcelerate/Content/images/svg/Open.svg', 
     0)
@@ -158,6 +165,7 @@ WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/Busi
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/BusinessErrorsBlock/button_DownloadReportBusinessErrors'))
 
+//Verify that block is collapsed
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/list_Data'), 'style', 'display: none;', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/list_Maintenance'), 'style', 'display: none;', 
@@ -175,6 +183,7 @@ WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/Proc
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/BusinessErrorsBlock/list_BusinessErrors'), 'style', 
     'display: none;', 0)
 
+//Expand all the blocks
 WebUI.click(findTestObject('XceleratePortal/Processes/button_OpenCloseData'))
 
 WebUI.click(findTestObject('XceleratePortal/Processes/button_OpenCloseMaintenance'))
@@ -187,6 +196,7 @@ WebUI.click(findTestObject('XceleratePortal/Processes/ProcessLogsBlock/button_Op
 
 WebUI.click(findTestObject('XceleratePortal/Processes/BusinessErrorsBlock/button_OpenCloseBusinessErrors'))
 
+//Verify correct displaying status of Open/Close button on each block
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/button_OpenCloseData'), 'src', ((((('http://' + 
     GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + '/xcelerate/Content/images/svg/Close.svg', 
     0)
@@ -213,6 +223,7 @@ WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/Busi
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/BusinessErrorsBlock/button_DownloadReportBusinessErrors'))
 
+//Verify that blocks is expanded
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/list_Data'), 'style', 'display: block;', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/list_Maintenance'), 'style', 'display: block;', 
@@ -230,11 +241,14 @@ WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/Proc
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/BusinessErrorsBlock/list_BusinessErrors'), 'style', 
     'display: block;', 0)
 
+//Expand error message
 WebUI.click(findTestObject('XceleratePortal/Processes/link_ViewMessage'))
 
+//Verify that "View more" changed to "View less"
 WebUI.verifyTextPresent('You have 2 process errors. View less', false)
 
-WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/text_ErrorMessage'), FailureHandling.CONTINUE_ON_FAILURE)
+//Verify displaying error message
+WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/text_ErrorMessage'))
 
 WebUI.closeBrowser()
 
