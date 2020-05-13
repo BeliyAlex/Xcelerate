@@ -26,9 +26,9 @@ WebUI.waitForPageLoad(3)
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/icon_Processes'))
 
-WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/header_Processes'))
-
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/block_ErrorMessage'))
+
+WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/header_Processes'))
 
 WebUI.verifyTextPresent('You have 2 process errors. View more', false)
 
