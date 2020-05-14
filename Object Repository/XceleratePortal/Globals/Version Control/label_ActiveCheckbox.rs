@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_ActiveCheckbox</name>
+   <tag></tag>
+   <elementGuidId>e1ba8c54-42e3-412f-8634-900195916d27</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@class='container-administration']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>$ctrl.newVersion.unsavedStatus</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>checkmark ng-pristine ng-untouched ng-valid ng-not-empty</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>$ctrl.newVersion.editing</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;maincontent ng-scope&quot;]/ov-version-control[@class=&quot;ng-scope ng-isolate-scope&quot;]/prompt-unsaved-changes[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;ov-version-control-s&quot;]/section[1]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;col-md-12 well no-padding-bottom&quot;]/div[@class=&quot;panel-group&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;category-table-container&quot;]/table[@class=&quot;category-table&quot;]/tbody[@class=&quot;add-row&quot;]/tr[@class=&quot;selected-row ng-invalid ng-invalid-required ng-dirty ng-valid-parse&quot;]/td[@class=&quot;center-text ng-scope&quot;]/label[@class=&quot;container-administration&quot;]/span[@class=&quot;checkmark ng-pristine ng-untouched ng-valid ng-not-empty&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+   </webElementXpaths>
+</WebElementEntity>

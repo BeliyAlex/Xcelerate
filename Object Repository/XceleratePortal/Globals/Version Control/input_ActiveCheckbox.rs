@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@class='ng-valid ng-dirty ng-valid-parse ng-touched ng-not-empty']</value>
+         <value>//label[@class='container-administration']/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;maincontent ng-scope&quot;]/ov-version-control[@class=&quot;ng-scope ng-isolate-scope&quot;]/prompt-unsaved-changes[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;ov-version-control-s&quot;]/section[1]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;col-md-12 well no-padding-bottom&quot;]/div[@class=&quot;panel-group&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;category-table-container&quot;]/table[@class=&quot;category-table&quot;]/tbody[@class=&quot;add-row&quot;]/tr[@class=&quot;ng-pristine selected-row ng-invalid ng-invalid-required&quot;]/td[@class=&quot;center-text ng-scope&quot;]/label[@class=&quot;container-administration&quot;]/span[@class=&quot;checkmark ng-pristine ng-untouched ng-valid ng-not-empty&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
