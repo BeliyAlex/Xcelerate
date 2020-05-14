@@ -28,6 +28,6 @@ public class EnterPortal {
 		WebUI.openBrowser(null)
 		WebUI.authenticate('http://' + GlobalVariable.Environment + '/xcelerate/dashboard', GlobalVariable.User, GlobalVariable.Password, 0)
 		WebUI.maximizeWindow()
-		WebUI.waitForPageLoad(2)
+		WebUI.waitForPageLoad(GlobalVariable.TimeOut)
 	}
 }

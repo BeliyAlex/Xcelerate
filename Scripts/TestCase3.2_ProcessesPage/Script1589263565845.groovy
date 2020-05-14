@@ -22,7 +22,7 @@ WebUI.mouseOver(findTestObject('XceleratePortal/Dashboard/menu_Tools'))
 
 WebUI.click(findTestObject('XceleratePortal/Dashboard/menu_Processes'))
 
-WebUI.waitForPageLoad(3)
+WebUI.waitForPageLoad(GlobalVariable.TimeOut)
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/icon_Processes'))
 
@@ -30,11 +30,13 @@ WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/block_Error
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/header_Processes'))
 
-WebUI.verifyTextPresent('You have 2 process errors. View more', false)
+WebUI.verifyTextPresent('View more', false)
+
+WebUI.verifyTextNotPresent('View less', false)
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/link_ViewMessage'))
 
-WebUI.verifyElementNotPresent(findTestObject('XceleratePortal/Processes/text_ErrorMessage'), 3)
+WebUI.verifyElementNotPresent(findTestObject('XceleratePortal/Processes/text_ErrorMessage'), GlobalVariable.TimeOut)
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/block_Data'))
 
@@ -245,7 +247,9 @@ WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Processes/Busi
 WebUI.click(findTestObject('XceleratePortal/Processes/link_ViewMessage'))
 
 //Verify that "View more" changed to "View less"
-WebUI.verifyTextPresent('You have 2 process errors. View less', false)
+WebUI.verifyTextPresent('View less', false)
+
+WebUI.verifyTextNotPresent('View more', false)
 
 //Verify displaying error message
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/text_ErrorMessage'))

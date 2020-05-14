@@ -6,12 +6,11 @@
    <elementGuidId>ee8f4dd3-534a-4a34-b08a-8a958c552dbf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//h2[contains(text(),'Processes')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//h2[@class='ng-binding']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
