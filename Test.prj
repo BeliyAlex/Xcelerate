@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>Test</name>
+   <name>XceleratePortalSmokeTest</name>
    <tag></tag>
    <UUID>af0e203d-0fdd-47ee-b2b1-baffee4dfa60</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\Alex\Katalon Studio\Test\Test.prj</projectFileLocation>
+   <projectFileLocation>/Users/aliaksandrbelavus/git/Xcelerate/Test.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
