@@ -22,7 +22,7 @@ WebUI.mouseOver(findTestObject('XceleratePortal/Dashboard/div_AuditMenu'))
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Dashboard/div_AuditSelectedMenu'))
 
-WebUI.verifyElementVisible(findTestObject('XceleratePortal/Dashboard/div_AuditHistoryPageMenu'))
+WebUI.verifyElementVisible(findTestObject('XceleratePortal/Dashboard/a_AuditHistoryPageMenu'))
 
 WebUI.closeBrowser()
 

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_PartnerCompensationList</name>
+   <name>div_BusinessErrorsList</name>
    <tag></tag>
-   <elementGuidId>232ba24f-96a7-4544-b655-23b4c05f1b5f</elementGuidId>
+   <elementGuidId>b5f19a2c-2a34-4989-87e4-d62264e1b31e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@id='errors']//div[@class='content']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='packages']//div[4]//div[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

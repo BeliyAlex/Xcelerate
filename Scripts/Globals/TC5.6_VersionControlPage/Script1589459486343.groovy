@@ -18,15 +18,3 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'xcelerate.EnterPortal.LoginToPortal'()
 
-WebUI.mouseOver(findTestObject('XceleratePortal/Dashboard/div_AuditMenu'))
-
-WebUI.click(findTestObject('XceleratePortal/Dashboard/a_AuditHistoryPageMenu'))
-
-WebUI.waitForPageLoad(GlobalVariable.TimeOut)
-
-WebUI.verifyElementPresent(findTestObject('null'), 0)
-
-WebUI.verifyElementPresent(findTestObject('null'), 0)
-
-WebUI.verifyElementPresent(findTestObject('null'), 0)
-

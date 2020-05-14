@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_MaintenanceList</name>
+   <name>div_DataList</name>
    <tag></tag>
-   <elementGuidId>988750c6-87a7-4b33-826e-64d01fe904b5</elementGuidId>
+   <elementGuidId>704f47f9-6d60-4036-b08c-56df5aefcfe0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@id='packages']//div[1]//div[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='packages']//div[2]//div[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

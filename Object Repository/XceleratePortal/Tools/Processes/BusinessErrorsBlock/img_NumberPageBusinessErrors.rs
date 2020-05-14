@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_BusinessErrorsList</name>
+   <name>img_NumberPageBusinessErrors</name>
    <tag></tag>
-   <elementGuidId>b5f19a2c-2a34-4989-87e4-d62264e1b31e</elementGuidId>
+   <elementGuidId>de78106c-9492-499e-9ff4-eefdcb715998</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@id='errors-grid']//span[contains(text(),'0')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='errors']//div[@class='content']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
