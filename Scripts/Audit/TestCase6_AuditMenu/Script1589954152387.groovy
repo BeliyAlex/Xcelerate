@@ -24,5 +24,5 @@ WebUI.verifyElementVisible(findTestObject('XceleratePortal/Dashboard/div_AuditSe
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Dashboard/a_AuditHistoryPageMenu'))
 
-WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.closeBrowser()
 

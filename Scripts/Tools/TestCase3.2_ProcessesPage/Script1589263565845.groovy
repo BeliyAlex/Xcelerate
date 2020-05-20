@@ -53,13 +53,13 @@ WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processe
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Tools/Processes/div_PartnerCompensationBlock'))
 
-WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/div_PartnerCompensationList'), 'style', '', 
-    0)
+WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/div_PartnerCompensationList'), 'style', 
+    '', 0)
 
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Tools/Processes/ProcessLogsBlock/div_ProcessLogsBlock'))
 
-WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/ProcessLogsBlock/div_ProcessLogsList'), 'style', 
-    '', 0)
+WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/ProcessLogsBlock/div_ProcessLogsList'), 
+    'style', '', 0)
 
 //Verify columns in Process Logs table
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Tools/Processes/ProcessLogsBlock/th_NameColumn'))
@@ -146,17 +146,17 @@ WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processe
     GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + '/xcelerate/Content/images/svg/Open.svg', 
     0)
 
-WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/img_OpenCloseMaintenanceBlock'), 'src', ((((('http://' + 
-    GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + '/xcelerate/Content/images/svg/Open.svg', 
+WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/img_OpenCloseMaintenanceBlock'), 'src', 
+    ((((('http://' + GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + '/xcelerate/Content/images/svg/Open.svg', 
     0)
 
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/img_OpenCloseEmployeeBlock'), 'src', ((((('http://' + 
     GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + '/xcelerate/Content/images/svg/Open.svg', 
     0)
 
-WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/img_OpenClosePartnerCompensationBlock'), 'src', 
-    ((((('http://' + GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + '/xcelerate/Content/images/svg/Open.svg', 
-    0)
+WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/img_OpenClosePartnerCompensationBlock'), 
+    'src', ((((('http://' + GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + 
+    '/xcelerate/Content/images/svg/Open.svg', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/ProcessLogsBlock/div_OpenCloseProcessLogs'), 
     'src', ((((('http://' + GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + 
@@ -169,7 +169,8 @@ WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processe
 WebUI.verifyElementVisible(findTestObject('XceleratePortal/Tools/Processes/BusinessErrorsBlock/img_DownloadReport'))
 
 //Verify that block is collapsed
-WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/div_DataList'), 'style', 'display: none;', 0)
+WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/div_DataList'), 'style', 'display: none;', 
+    0)
 
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/div_MaintenanceList'), 'style', 'display: none;', 
     0)
@@ -177,11 +178,11 @@ WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processe
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/div_EmployeeList'), 'style', 'display: none;', 
     0)
 
-WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/div_PartnerCompensationList'), 'style', 'display: none;', 
-    0)
-
-WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/ProcessLogsBlock/div_ProcessLogsList'), 'style', 
+WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/div_PartnerCompensationList'), 'style', 
     'display: none;', 0)
+
+WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/ProcessLogsBlock/div_ProcessLogsList'), 
+    'style', 'display: none;', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/BusinessErrorsBlock/div_BusinessErrorsList'), 
     'style', 'display: none;', 0)
@@ -204,17 +205,17 @@ WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processe
     GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + '/xcelerate/Content/images/svg/Close.svg', 
     0)
 
-WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/img_OpenCloseMaintenanceBlock'), 'src', ((((('http://' + 
-    GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + '/xcelerate/Content/images/svg/Close.svg', 
+WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/img_OpenCloseMaintenanceBlock'), 'src', 
+    ((((('http://' + GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + '/xcelerate/Content/images/svg/Close.svg', 
     0)
 
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/img_OpenCloseEmployeeBlock'), 'src', ((((('http://' + 
     GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + '/xcelerate/Content/images/svg/Close.svg', 
     0)
 
-WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/img_OpenClosePartnerCompensationBlock'), 'src', 
-    ((((('http://' + GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + '/xcelerate/Content/images/svg/Close.svg', 
-    0)
+WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/img_OpenClosePartnerCompensationBlock'), 
+    'src', ((((('http://' + GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + 
+    '/xcelerate/Content/images/svg/Close.svg', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/ProcessLogsBlock/div_OpenCloseProcessLogs'), 
     'src', ((((('http://' + GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + 
@@ -224,7 +225,7 @@ WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processe
     'src', ((((('http://' + GlobalVariable.User) + ':') + GlobalVariable.Password) + '@') + GlobalVariable.Environment) + 
     '/xcelerate/Content/images/svg/Close.svg', 0)
 
-WebUI.verifyElementVisible(findTestObject('XceleratePortal/Processes/BusinessErrorsBlock/button_DownloadReportBusinessErrors'))
+WebUI.verifyElementVisible(findTestObject('XceleratePortal/Tools/Processes/BusinessErrorsBlock/img_DownloadReport'))
 
 //Verify that blocks is expanded
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/div_DataList'), 'style', 'display: block;', 
@@ -236,11 +237,11 @@ WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processe
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/div_EmployeeList'), 'style', 'display: block;', 
     0)
 
-WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/div_PartnerCompensationList'), 'style', 'display: block;', 
-    0)
-
-WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/ProcessLogsBlock/div_ProcessLogsList'), 'style', 
+WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/div_PartnerCompensationList'), 'style', 
     'display: block;', 0)
+
+WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/ProcessLogsBlock/div_ProcessLogsList'), 
+    'style', 'display: block;', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('XceleratePortal/Tools/Processes/BusinessErrorsBlock/div_BusinessErrorsList'), 
     'style', 'display: block;', 0)
